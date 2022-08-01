@@ -24,31 +24,31 @@
 //     console.log("abona 100usd de patente")
 // }
 
-let puntos=0;
-let banda=prompt("Cual es la banda que estabamos escuchando en la clase");
-let cancion=prompt("Cual es la ultima cancion de esa banda");
+// let puntos=0;
+// let banda=prompt("Cual es la banda que estabamos escuchando en la clase");
+// let cancion=prompt("Cual es la ultima cancion de esa banda");
 
-if((banda=="daft punk") && (cancion=="game of love")){
-    console.log("Excelente ganaste 2 puntos");
-     puntos=puntos +2;
-}else if ((banda=="daft punk")&&(cancion!="fame of love")){
-    console.log("Bien la banda, mal la cancion. sumaste 1 punto");
-    puntos=puntos + 1 ;
-}else if ((banda!= "daft punk")&&(cancion=="game of love")){
-    console.log("Bien la cancion, mal la banda. Sumaste 1 punto");
-}else{
-    console.log("Error en ambas preguntas, no sumas puntos")
-}
+// if((banda=="daft punk") && (cancion=="game of love")){
+//     console.log("Excelente ganaste 2 puntos");
+//      puntos=puntos +2;
+// }else if ((banda=="daft punk")&&(cancion!="fame of love")){
+//     console.log("Bien la banda, mal la cancion. sumaste 1 punto");
+//     puntos=puntos + 1 ;
+// }else if ((banda!= "daft punk")&&(cancion=="game of love")){
+//     console.log("Bien la cancion, mal la banda. Sumaste 1 punto");
+// }else{
+//     console.log("Error en ambas preguntas, no sumas puntos")
+// }
 
-//pregunta2
-let nombreMessi=prompt("Ingresa el primer nombre de Messi");
+// //pregunta2
+// let nombreMessi=prompt("Ingresa el primer nombre de Messi");
 
-if((nombreMessi=="Lionel")|| (nombreMessi=="lionel")||(nombreMessi=="LIONEL")){
-    console.log("Excelente ganaste 2 puntos");
-     puntos=puntos +2;
-}else{
-    console.log("Error no sumas puntos");
-}
+// if((nombreMessi=="Lionel")|| (nombreMessi=="lionel")||(nombreMessi=="LIONEL")){
+//     console.log("Excelente ganaste 2 puntos");
+//      puntos=puntos +2;
+// }else{
+//     console.log("Error no sumas puntos");
+// }
 
 
-console.log("Fin Del Juego-Puntos: "+puntos);
+// console.log("Fin Del Juego-Puntos: "+puntos);
