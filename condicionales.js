@@ -52,3 +52,43 @@
 
 
 // console.log("Fin Del Juego-Puntos: "+puntos);
+
+//switch-case
+
+let producto=prompt("Ingresa el producto y te dire su precio (s-para salir)");
+let precio=0;
+
+while(producto!="s"){
+    switch(producto){
+        case "azucar":
+        case "Azucar":
+        case "AZUCAR":
+            console.log("EL azucar sale $200");
+            precio=precio+200;
+            break;
+        case "yerba":
+        case "Yerba":
+        case "YERBA":
+            console.log("La yerba sale $400")
+            precio=precio+400;
+            break;
+        case "fideos":
+        case "Fideos":
+        case "FIDEOS":
+            console.log("Los fideos cuestan $100")
+            precio=precio+100;
+            break;
+        case "alimento de perros":
+        case "Alimento de perros":
+        case "ALIMENTO DE PERROS":
+            console.log("El alimento cuesta $3000")
+            precio=precio+3000;
+            break;
+        default:
+            console.log("Ese producto no esta en stock");
+            break;    
+
+    }
+    producto=prompt("Ingresa el producto y te dire su precio (s-para salir)")
+}
+console.log("Total a pagar $" +precio);

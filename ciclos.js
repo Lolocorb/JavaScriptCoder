@@ -47,12 +47,21 @@
 // }
 
 //While, Bucle!
- let oracion="";
- let palabra=prompt("Ingresa una palabra para armar una oracion (s-salir del juego) ");
+//let oracion="";
+//let palabra=prompt("Ingresa una palabra para armar una oracion (s-salir del juego) ");
 
- while(palabra!="s"){
-    oracion = oracion + " " + palabra;
-    palabra=prompt("Ingresa otra palabra para armar la oracion (s-salir del juego)");
- }
+//while(palabra!="s"){
+//   oracion = oracion + " " + palabra;
+//   palabra=prompt("Ingresa otra palabra para armar la oracion (s-salir del juego)");
+//}
 
- alert("La oracion formada es: "+oracion);
+//alert("La oracion formada es: "+oracion);
+
+//do while
+
+let numero = 0;
+do{
+   numero = prompt("Ingresar Numero");
+   console.log(numero);
+}while(parseInt(numero));
+
